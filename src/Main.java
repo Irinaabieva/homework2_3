@@ -4,7 +4,9 @@ public class Main {
         var secondBoxer = 82.7;
         var totalWeight = firstBoxer + secondBoxer;
         System.out.println("Общий вес бойцов " + totalWeight);
-        var differenceWeight = firstBoxer - secondBoxer;
+        var differenceWeight = secondBoxer - firstBoxer;
         System.out.println("Разница между весами бойцов " + differenceWeight);
+        var overload = totalWeight % firstBoxer;
+        System.out.println("Разница между весами бойцов " + overload);
     }
 }
